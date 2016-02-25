@@ -21,7 +21,7 @@ ADD shopex-php56.repo /etc/yum.repos.d/shopex-php56.repo
 
 RUN yum -y update
 
-RUN yum -y install openssh-server htop nano screen httpd mysql php php-pdo php-xml php-soap php-fpm php-bcmath php-common php-mysql php-mcrypt php-mbstring php-gd php-cli php-xmlrpc php-pecl-igbinary php-pecl-redis php-pecl-mongo php-pecl-memcache php-pecl-memcached php-ZendGuardLoader memcached redis && \
+RUN yum -y install openssh-server htop nano screen httpd mysql51 php php-pdo php-xml php-soap php-fpm php-bcmath php-common php-mysql php-mcrypt php-mbstring php-gd php-cli php-xmlrpc php-pecl-igbinary php-pecl-redis php-pecl-mongo php-pecl-memcache php-pecl-memcached php-ZendGuardLoader memcached redis && \
     ssh-keygen -q -N "" -t rsa -f /etc/ssh/ssh_host_rsa_key && \
     ssh-keygen -q -N "" -t rsa -f /etc/ssh/ssh_host_dsa_key && \
     sed -i "s/#UsePrivilegeSeparation.*/UsePrivilegeSeparation no/g" /etc/ssh/sshd_config && \

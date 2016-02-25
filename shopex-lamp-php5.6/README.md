@@ -6,7 +6,7 @@ Apache version: 2.2.29
 
 Mysql verison: 5.1
 
-PHP verison: 5.3.29
+PHP verison: 5.6
 
 Root password: LNMP123
 
