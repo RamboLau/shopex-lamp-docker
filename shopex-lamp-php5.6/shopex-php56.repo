@@ -1,0 +1,5 @@
+[shopex-php56]
+name = shopex lnmp rpm for centos 6
+baseurl = http://mirrors.shopex.cn/shopex/shopex-lnmp/php56/x86_64
+gpgcheck = 0
+
