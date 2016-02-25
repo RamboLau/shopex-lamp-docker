@@ -8,8 +8,6 @@
 # Apache Verison      2.22
 # PHP verison         5.3.29
 # Mysql Version       5.1
-# Redis Verison       3.0.1
-# Memcached           2
 
 FROM centos:6.7
 MAINTAINER Max
